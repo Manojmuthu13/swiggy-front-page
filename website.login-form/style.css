@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Encode+Sans&family=Fira+Code&family=Fuggles&family=Gabarito&family=Montserrat:ital,wght@1,600&family=Mooli&family=Pixelify+Sans:wght@500&family=Poppins:wght@300&family=Titillium+Web&family=Ubuntu:ital,wght@1,500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    background-color: indigo;
+    color:white;
+}   
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 20px;
+    color: aliceblue;
+    color:black;
+    padding:20px;
+   
+}
+.right-navbar {
+    display: flex;
+    justify-content:center;
+    padding: 7px;
+    border:0;
+    margin: 10px;
+    outline: 0;
+
+}
+.btn {
+    margin-top: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    cursor: pointer;
+    color:rgb(19, 1, 1);
+    border-radius: 20px;
+    background-color: white;
+}
+.btn:hover {
+    color:orange
+}
+.nav-items{
+    display: flex;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 70px;
+    font-size: larger;
+}
+.nav-items:hover {
+    color: orange
+}
+.home{
+    width:400px;
+    height: 450px;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+.home .header{
+    padding:5px 0px;
+}
+.section{
+    display: flex;
+    position: relative;
+}
+.section input:not(.check){
+    width:100%;
+    margin-top:10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid navy;
+    font-size: 20px;
+}
+.section input:not(.check):hover{
+    background-color: aliceblue;
+}
+.section span{
+    position: absolute;
+    right:0px;
+    bottom:35px;
+}
+.section span:hover{
+    background-color: aliceblue;
+
+}
+.home form{
+    padding:20px;
+    font-size: 15px;
+}
+.rem-for a:hover{
+    color: blue;
+}
+.button{
+    width:100%;
+    margin-top:20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid navy;
+    font-size: 20px;
+    background-color: aliceblue;
+    color:black;
+}
+.footer a:hover{
+    color:blue;
+}
+.for-pass{
+    display: flex;
+    justify-content: space-around;
+}
+.rem-for{
+    display: flex;
+    justify-content: space-between;
+}
+
+
